@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forge Store | Cart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .cart-summary {
+            margin-top: 30px;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: right;
+            border: 1px solid #EBEAE5;
+        }
+        .checkout-btn {
+            display: inline-block;
+            background: #FF5A1F;
+            color: white;
+            padding: 13px 25px;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background 0.18s ease, transform 0.18s ease;
+        }
+        .checkout-btn:hover {
+            background: #E64E17;
+            transform: translateY(-2px);
+        }
+        @media (max-width: 650px) {
+            .cart-item { flex-wrap: wrap; }
+            .cart-summary { text-align: center; }
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Forge Store</h1>
+
+```
+<nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="cart.html">Cart 🛒</a>
+</nav>
+```
+
+</header>
+
+<main class="cart-container">
+
+```
+<h2 class="cart-title">Your Cart</h2>
+
+<div id="cart-items"></div>
+
+<div class="cart-summary">
+
+    <div class="total">
+        Total: GH₵<span id="cart-total">0.00</span>
+    </div>
+
+    <a href="checkout.html" class="checkout-btn">
+        Proceed to Checkout
+    </a>
+
+</div>
+```
+
+</main>
+
+<footer>
+    <p>© 2026 Forge Store. All rights reserved.</p>
+</footer>
+
+<script src="js/cart.js"></script>
+
+</body>
+</html>

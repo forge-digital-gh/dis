@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Forge Store</title>
+
+    <!-- IMPORTANT: CSS is inside public/css/ -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="container nav">
+
+        <a href="index.html" class="logo" id="storeLogo">
+            FORGE<span>.</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">
+                Cart <span id="cartCount">0</span>
+            </a>
+        </nav>
+
+    </div>
+</header>
+
+
+<main>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="container hero-content">
+
+            <div class="hero-text">
+
+                <p class="eyebrow" id="heroStoreName">
+                    FORGE STORE
+                </p>
+
+                <h1 id="heroTitle">
+                    Quality Products.<br>
+                    Better Shopping.
+                </h1>
+
+                <p id="heroDescription">
+                    Discover quality products at great prices.
+                    Shop easily and securely.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="products.html" class="btn">
+                        Shop Now
+                    </a>
+
+                    <a href="#categories" class="btn secondary-btn">
+                        Browse Categories
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CATEGORIES -->
+
+    <section class="section" id="categories">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    SHOP BY CATEGORY
+                </p>
+
+                <h2>
+                    Find What You Need
+                </h2>
+
+            </div>
+
+
+            <div class="category-grid">
+
+                <a
+                    href="products.html?category=electronics"
+                    class="category-card">
+
+                    <div class="category-icon">
+                        ⚡
+                    </div>
+
+                    <h3>
+                        Electronics
+                    </h3>
+
+                    <p>
+                        Phones, gadgets and electronics.
+                    </p>
+
+                </a>
+
+
+                <a
+                    href="products.html?category=fashion"
+                    class="category-card">
+
+                    <div class="category-icon">
+                        👕
+                    </div>
+
+                    <h3>
+                        Fashion
+                    </h3>
+
+                    <p>
+                        Modern fashion and clothing.
+                    </p>
+
+                </a>
+
+
+                <a
+                    href="products.html?category=accessories"
+                    class="category-card">
+
+                    <div class="category-icon">
+                        ✨
+                    </div>
+
+                    <h3>
+                        Accessories
+                    </h3>
+
+                    <p>
+                        Accessories for every style.
+                    </p>
+
+                </a>
+
+
+                <a
+                    href="products.html?category=home"
+                    class="category-card">
+
+                    <div class="category-icon">
+                        🏠
+                    </div>
+
+                    <h3>
+                        Home
+                    </h3>
+
+                    <p>
+                        Useful products for your home.
+                    </p>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FEATURED PRODUCTS -->
+
+    <section class="section featured-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    FEATURED
+                </p>
+
+                <h2>
+                    Popular Products
+                </h2>
+
+                <p>
+                    Check out some of our products.
+                </p>
+
+            </div>
+
+
+            <div
+                class="product-grid"
+                id="featuredProducts">
+
+                <!-- Products loaded by JavaScript -->
+
+            </div>
+
+
+            <div class="center-button">
+
+                <a href="products.html" class="btn">
+                    View All Products
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- WHY SHOP -->
+
+    <section class="section why-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    WHY SHOP WITH US
+                </p>
+
+                <h2>
+                    Shopping Made Simple
+                </h2>
+
+            </div>
+
+
+            <div class="features-grid">
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        🚚
+                    </div>
+
+                    <h3>
+                        Easy Delivery
+                    </h3>
+
+                    <p>
+                        Get your orders delivered
+                        conveniently.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        🔒
+                    </div>
+
+                    <h3>
+                        Secure Payment
+                    </h3>
+
+                    <p>
+                        Pay securely using
+                        supported payment methods.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        💬
+                    </div>
+
+                    <h3>
+                        Customer Support
+                    </h3>
+
+                    <p>
+                        Contact us whenever
+                        you need assistance.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        ⭐
+                    </div>
+
+                    <h3>
+                        Quality Products
+                    </h3>
+
+                    <p>
+                        Shop products selected
+                        with quality in mind.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CALL TO ACTION -->
+
+    <section class="cta-section">
+
+        <div class="container">
+
+            <div class="cta-box">
+
+                <p class="eyebrow">
+                    READY TO SHOP?
+                </p>
+
+                <h2>
+                    Find Something You Love
+                </h2>
+
+                <p>
+                    Browse our products and place
+                    your order today.
+                </p>
+
+                <a href="products.html" class="btn">
+                    Start Shopping
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div>
+
+                <a
+                    href="index.html"
+                    class="logo"
+                    id="footerStoreName">
+
+                    FORGE<span>.</span>
+
+                </a>
+
+                <p id="footerTagline">
+                    Quality Products, Better Shopping
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Quick Links
+                </h3>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="products.html">
+                    Products
+                </a>
+
+                <a href="cart.html">
+                    Cart
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Categories
+                </h3>
+
+                <a href="products.html?category=electronics">
+                    Electronics
+                </a>
+
+                <a href="products.html?category=fashion">
+                    Fashion
+                </a>
+
+                <a href="products.html?category=accessories">
+                    Accessories
+                </a>
+
+                <a href="products.html?category=home">
+                    Home
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Contact
+                </h3>
+
+                <a
+                    href="#"
+                    id="whatsappLink"
+                    target="_blank">
+
+                    WhatsApp
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+
+                © <span id="year"></span>
+
+                <span id="copyrightName">
+                    FORGE STORE
+                </span>
+
+                . All rights reserved.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- ================================
+     JAVASCRIPT
+================================ -->
+
+<script src="js/config.js"></script>
+<script src="js/products.js"></script>
+<script src="js/cart.js"></script>
+
+
+<script>
+
+document.addEventListener(
+    "DOMContentLoaded",
+    function () {
+
+        /* ============================
+           STORE CONFIG
+        ============================ */
+
+        if (
+            typeof STORE_CONFIG !==
+            "undefined"
+        ) {
+
+            document.title =
+                STORE_CONFIG.name;
+
+
+            document.getElementById(
+                "heroStoreName"
+            ).textContent =
+                STORE_CONFIG.name;
+
+
+            document.getElementById(
+                "footerStoreName"
+            ).textContent =
+                STORE_CONFIG.name;
+
+
+            document.getElementById(
+                "footerTagline"
+            ).textContent =
+                STORE_CONFIG.tagline;
+
+
+            document.getElementById(
+                "copyrightName"
+            ).textContent =
+                STORE_CONFIG.name;
+
+
+            if (
+                STORE_CONFIG.whatsapp
+            ) {
+
+                document.getElementById(
+                    "whatsappLink"
+                ).href =
+                    "https://wa.me/" +
+                    STORE_CONFIG.whatsapp;
+
+            }
+
+        }
+
+
+        /* ============================
+           YEAR
+        ============================ */
+
+        document.getElementById(
+            "year"
+        ).textContent =
+            new Date().getFullYear();
+
+
+        /* ============================
+           FEATURED PRODUCTS
+        ============================ */
+
+        if (
+            typeof products !==
+            "undefined"
+        ) {
+
+            const container =
+                document.getElementById(
+                    "featuredProducts"
+                );
+
+
+            const featured =
+                products.slice(0, 4);
+
+
+            featured.forEach(
+                function (product) {
+
+                    const card =
+                        document.createElement(
+                            "div"
+                        );
+
+
+                    card.className =
+                        "product-card";
+
+
+                    card.innerHTML = `
+
+                        <div class="product-image">
+
+                            <img
+                                src="${product.image}"
+                                alt="${product.name}"
+                            >
+
+                        </div>
+
+
+                        <div class="product-info">
+
+                            <h3>
+                                ${product.name}
+                            </h3>
+
+
+                            <p class="product-category">
+                                ${product.category}
+                            </p>
+
+
+                            <strong class="product-price">
+
+                                ${
+                                    STORE_CONFIG.currency
+                                }
+
+                                ${Number(
+                                    product.price
+                                ).toFixed(2)}
+
+                            </strong>
+
+
+                            <div class="product-actions">
+
+                                <a
+                                    href="product.html?id=${product.id}"
+                                    class="btn">
+
+                                    View Product
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    `;
+
+
+                    container.appendChild(
+                        card
+                    );
+
+                }
+            );
+
+        }
+
+    });
+
+</script>
+
+<script src="js/config.js"></script>
+<script src="js/products.js"></script>
+<script src="js/cart.js"></script>
+
+</body>
+</html>

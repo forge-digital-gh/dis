@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>Forge Store | Products</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    #products {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 22px;
+    }
+    .view-product {
+        display: block;
+        text-align: center;
+        background: #14151A;
+        color: white;
+        padding: 12px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        font-weight: 600;
+        transition: background 0.15s ease;
+    }
+    .view-product:hover {
+        background: #FF5A1F;
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+<header>
+
+```
+<h1>Forge Store</h1>
+
+<nav>
+
+    <a href="index.html">Home</a>
+
+    <a href="products.html">Products</a>
+
+    <a href="cart.html">Cart 🛒</a>
+
+</nav>
+```
+
+</header>
+
+<section class="page-banner">
+
+```
+<h2>Our Products</h2>
+
+<p>Quality products at affordable prices.</p>
+```
+
+</section>
+
+<main class="products-container">
+
+```
+<!-- PRODUCTS WILL APPEAR HERE -->
+
+<div id="products"></div>
+```
+
+</main>
+
+<footer>
+
+```
+<p>© 2026 Forge Store. All rights reserved.</p>
+```
+
+</footer>
+
+<!-- IMPORTANT -->
+
+<!-- products.js must be inside the js folder -->
+
+<script src="js/products.js"></script>
+
+</body>
+
+</html>
